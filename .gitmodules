@@ -1,0 +1,9 @@
+[submodule "solid"]
+	path = submodules/solid
+	url = https://github.com/fictitious/solid.git
+[submodule "dom-expressions"]
+	path = submodules/dom-expressions
+	url = https://github.com/fictitious/dom-expressions.git
+[submodule "solid-devtools"]
+	path = submodules/solid-devtools
+	url = git@github.com:fictitious/solid-devtools
