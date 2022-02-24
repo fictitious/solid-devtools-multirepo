@@ -14028,6 +14028,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"solid-devtools-test2@workspace:examples/test2":
+  version: 0.0.0-use.local
+  resolution: "solid-devtools-test2@workspace:examples/test2"
+  dependencies:
+    solid-js: ^1.3.7
+    vite: ^2.7.13
+    vite-plugin-solid: ^2.2.5
+    yarn: ^1.22.15
+  languageName: unknown
+  linkType: soft
+
 "solid-element@workspace:submodules/solid/packages/solid-element":
   version: 0.0.0-use.local
   resolution: "solid-element@workspace:submodules/solid/packages/solid-element"
