@@ -33,7 +33,9 @@
         "build-dev-dependencies": "npm-run-all -c -p build-babel-plugin-jsx-dom-expressions build-lit-dom-expressions build-hyper-dom-expressions build-solid",
         "build": "npm-run-all -s build-dev-dependencies build-solid-devtools",
         "start-test1": "cd examples/test1 && ./node_modules/.bin/vite",
-        "start-examples": "npm-run-all -p start-test1"
+        "start-test2": "cd examples/test2 && ./node_modules/.bin/vite",
+        "start-solid-tree-view": "cd examples/solid-tree-view && ./node_modules/.bin/vite",
+        "start-examples": "npm-run-all -p start-test2 start-solid-tree-view"
     },
     "packageManager": "yarn@3.0.2",
     "workspaces": [
