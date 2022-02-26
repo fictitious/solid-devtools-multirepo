@@ -10,3 +10,6 @@
 [submodule "solid-tree-view"]
 	path = examples/solid-tree-view
 	url = https://github.com/fictitious/solid-tree-view.git
+[submodule "solid-site"]
+	path = examples/solid-site
+	url = https://github.com/fictitious/solid-site.git
