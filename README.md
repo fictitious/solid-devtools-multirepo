@@ -124,3 +124,5 @@ The "patched" benchmark is in `examples/benchmark-solid-patchced`, it's included
 
 There's no significant difference in the results - I'm getting similar differences between multiple runs of the benchmark for the same code.
 
+![solid-benchmark-comparison](https://user-images.githubusercontent.com/189742/155894017-62b8cffa-c86f-4572-afde-03a540393b66.png)
+
