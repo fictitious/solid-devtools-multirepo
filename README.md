@@ -75,7 +75,7 @@ export {App};
 
 The imaginary component tree for `App` looks like this:
 
-<img src="/../../../solid-devtools/blob/main/doc/media/component-tree.dot.svg" width="600" alt="Component tree>
+<img src="/../../../solid-devtools/blob/main/doc/media/component-tree.dot.svg" width="600" alt="Component tree">
 
 - ovals are components
 - diamonds are DOM elements
