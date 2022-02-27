@@ -6,7 +6,7 @@
 	url = https://github.com/fictitious/dom-expressions.git
 [submodule "solid-devtools"]
 	path = submodules/solid-devtools
-	url = git@github.com:fictitious/solid-devtools
+	url = https://github.com/fictitious/solid-devtools.git
 [submodule "solid-tree-view"]
 	path = examples/solid-tree-view
 	url = https://github.com/fictitious/solid-tree-view.git
