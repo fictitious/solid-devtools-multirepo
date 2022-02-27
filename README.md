@@ -75,7 +75,7 @@ export {App};
 
 The imaginary component tree for `App` looks like this:
 
-![Component tree](/../../../solid-devtools/blob/main/doc/media/component-tree.dot.svg)
+<img src="/../../../solid-devtools/blob/main/doc/media/component-tree.dot.svg" width="600" alt="Component tree>
 
 - ovals are components
 - diamonds are DOM elements
@@ -95,13 +95,13 @@ When the devtools page is not open, the wrappers are no-op functions which just 
 
 The hook script collects information from `createComponent`, `insertParent` and `render` wrappers and stored it in the [registry](https://github.com/fictitious/solid-devtools/blob/main/src/hook/registry/registry.ts#L15). It assigns IDs to component instances and DOM nodes which are results of components, and keeps the map of components and the map of component results:
 
-![Component tree](/../../../solid-devtools/blob/main/doc/media/hook.dot.svg)
+<img src="/../../../solid-devtools/blob/main/doc/media/hook.dot.svg" width="400" alt="Hook">
 
 ### The channel and the devtools panel
 
 To show component tree, that information must be transferred from the hook to the devtools panel which runs in a separate javascript context inside chrome devtools. [Channel](https://github.com/fictitious/solid-devtools/blob/main/src/channel/channel-types.ts) is used for that. Channel code was taken from React devtools (it's called the bridge there) and modified to adapt to [chrome extension manifest V3](https://github.com/fictitious/solid-devtools/blob/main/doc/manifest-v3-issues.md).
 
-![Component tree](/../../../solid-devtools/blob/main/doc/media/channel.dot.svg)
+<img src="/../../../solid-devtools/blob/main/doc/media/channel.dot.svg" alt="Channel">
 
 Message types from page to devtools and from devtools to page are [defined here](https://github.com/fictitious/solid-devtools/blob/main/src/channel/channel-message-types.ts#L107). 
 
