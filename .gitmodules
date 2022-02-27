@@ -13,3 +13,6 @@
 [submodule "solid-site"]
 	path = examples/solid-site
 	url = https://github.com/fictitious/solid-site.git
+[submodule "js-framework-benchmark"]
+	path = examples/js-framework-benchmark
+	url = https://github.com/krausest/js-framework-benchmark.git
