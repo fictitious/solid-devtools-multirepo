@@ -3,7 +3,7 @@
 
 **work in progress, not quite usable yet**
 
-- requires changes to solid-js and dom-expressions code [insert link here to the Changes in Solid JS code below]
+- requires [changes](https://github.com/fictitious/solid-devtools-multirepo/blob/main/README.md#changes-to-solid-js-code) to solid-js and dom-expressions code 
 - so it works only with examples built from this multirepo, which are using modified solid-js from this repo
 - it's buggy, does not handle Portal yet
 - only shows component tree and component props, no signals yet
@@ -30,13 +30,7 @@ Start examples
 ./node_modules/.bin/yarn start-examples
 ```
 
-video:
-- installation
-- test2
-- solid-tree-view
-- solid-site
-- test2 in production mode
-- debugger hack (on solid-site)
+https://user-images.githubusercontent.com/189742/155890283-f4d01a2e-8e9b-4338-a3f8-79c0edcaaaec.mp4
 
 ## Overview
 
