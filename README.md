@@ -32,6 +32,13 @@ Start examples
 
 https://user-images.githubusercontent.com/189742/155890283-f4d01a2e-8e9b-4338-a3f8-79c0edcaaaec.mp4
 
+The apps used for examples are:
+
+- Modified example from [Solid tutorial](https://www.solidjs.com/tutorial/flow_for?solved)
+- [solid-tree-view](https://github.com/aquaductape/solid-tree-view) by [Caleb Taylor](https://github.com/aquaductape)
+- [Solid website](https://github.com/solidjs/solid-site)
+
+Example apps are included in this multirepo so they are using modified solid-js also from this repo.
 
 After the first full build which builds all dependencies including solid-js, the updated devtools version can be built by
 ```bash
