@@ -33,7 +33,7 @@ Start examples
 https://user-images.githubusercontent.com/189742/155890283-f4d01a2e-8e9b-4338-a3f8-79c0edcaaaec.mp4
 
 
-Afther the first full build which builds all dependencies including solid-js, the updated devtools version can be built by
+After the first full build which builds all dependencies including solid-js, the updated devtools version can be built by
 ```bash
 ./node_modules/.bin/yarn build-solid-devtools
 ```
@@ -43,7 +43,7 @@ Then you will need to reload it on the chrome extensions page.
 
 ### Component Tree
 
-Let's take this [slightly modified](https://github.com/fictitious/solid-devtools-multirepo/blob/main/examples/test2/src/app.tsx) example from [Solid tutorial](https://www.solidjs.com/tutorial/flow_for?solved)
+Let's take this [slightly modified](https://github.com/fictitious/solid-devtools-multirepo/blob/main/examples/tutorial-cats/src/app.tsx) example from [Solid tutorial](https://www.solidjs.com/tutorial/flow_for?solved)
 
 ```typescript
 import type {Component} from 'solid-js';

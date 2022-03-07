@@ -1,8 +1,8 @@
 {
-    "name": "solid-devtools-test2",
+    "name": "solid-devtools-tutorial-cats",
     "private": true,
     "version": "0.1.0",
-    "description": "solid devtools tes2",
+    "description": "solid devtools example: tutorial cats",
     "scripts": {
         "start": "vite",
         "dev": "vite",
