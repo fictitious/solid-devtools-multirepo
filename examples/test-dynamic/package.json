@@ -1,8 +1,8 @@
 {
-    "name": "solid-devtools-test1",
+    "name": "solid-devtools-test-dynamic",
     "private": true,
     "version": "0.1.0",
-    "description": "solid devtools test1",
+    "description": "solid devtools Dynamic test",
     "scripts": {
         "start": "vite",
         "dev": "vite",

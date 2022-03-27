@@ -24290,9 +24290,9 @@ resolve@^2.0.0-next.3:
   languageName: unknown
   linkType: soft
 
-"solid-devtools-test1@workspace:examples/test1":
+"solid-devtools-test-dynamic@workspace:examples/test-dynamic":
   version: 0.0.0-use.local
-  resolution: "solid-devtools-test1@workspace:examples/test1"
+  resolution: "solid-devtools-test-dynamic@workspace:examples/test-dynamic"
   dependencies:
     solid-js: ^1.3.7
     vite: ^2.7.13

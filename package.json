@@ -37,7 +37,7 @@
         "build-benchmark:driver": "cd examples/js-framework-benchmark/webdriver-ts && npm ci && npm run compile",
         "build-benchmark": "npm-run-all 'build-benchmark:*'",
         "build": "npm-run-all -s build-dev-dependencies build-solid-devtools",
-        "start-test1": "cd examples/test1 && ./node_modules/.bin/vite",
+        "start-test-dynamic": "cd examples/test-dynamic && ./node_modules/.bin/vite",
         "start-example:tutorial-cats": "cd examples/tutorial-cats && ./node_modules/.bin/vite --open",
         "start-example:solid-tree-view": "cd examples/solid-tree-view && ./node_modules/.bin/vite --open",
         "start-example:solid-site": "cd examples/solid-site && ./node_modules/.bin/vite --open",
