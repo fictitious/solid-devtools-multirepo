@@ -4416,12 +4416,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid-primitives/clipboard@npm:^1.2.8":
-  version: 1.2.8
-  resolution: "@solid-primitives/clipboard@npm:1.2.8"
+"@solid-primitives/clipboard@npm:^1.2.9":
+  version: 1.3.0
+  resolution: "@solid-primitives/clipboard@npm:1.3.0"
   peerDependencies:
-    solid-js: 1.3.0
-  checksum: 4e248b82422be3d39a85eef8ce437c2d87538c27c96b2c6c245c8b5834713673ef1b0c76b9fd75770564362cc075051f5105e1bf80089d6a86bd9debf8e24ac9
+    solid-js: ^1.3.3
+  checksum: aed9fe9546c4aca1fff0ee398cebdc9a55a825663db5c37f3ff323222b2c253b9668c0b558f74f2779f24cc8196d844b27333165d7c75e98a8242d83275857a2
   languageName: node
   linkType: hard
 
@@ -4542,13 +4542,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid.js/docs@npm:^1.0.31":
-  version: 1.0.31
-  resolution: "@solid.js/docs@npm:1.0.31"
+"@solid.js/docs@npm:^1.0.32":
+  version: 1.0.32
+  resolution: "@solid.js/docs@npm:1.0.32"
   dependencies:
     "@types/markdown-it": ^12.2.3
     node-watch: ^0.7.2
-  checksum: cc6828bd71bae15bf8ddd0926b2707b72c28255c0d673dbf4d3b79a1f7af711755d0c15199ba5ce44e9d48ecc9f6af1434e1e1f47b87b5707daa1bd62086ede3
+  checksum: 35359c11145b7120a183d49e6f1d9504c055ccd4c18096f171ff3d91ddd5e5317f9bf2ac7a9963984b3cbf86c71b97dc97d32a8112b641c6ca36e1e1e8000afb
   languageName: node
   linkType: hard
 
@@ -7146,7 +7146,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-preset-solid@workspace:submodules/solid/packages/babel-preset-solid"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ^0.32.11
+    babel-plugin-jsx-dom-expressions: ^0.32.16
   languageName: unknown
   linkType: soft
 
@@ -10227,7 +10227,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dom-expressions@workspace:submodules/dom-expressions/packages/dom-expressions"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ^0.32.11
+    babel-plugin-jsx-dom-expressions: ^0.32.16
     babel-plugin-transform-rename-import: ^2.3.0
     devalue: ^2.0.1
   languageName: unknown
@@ -13749,7 +13749,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hyper-dom-expressions@workspace:submodules/dom-expressions/packages/hyper-dom-expressions"
   dependencies:
-    dom-expressions: ^0.32.11
+    dom-expressions: ^0.32.16
   languageName: unknown
   linkType: soft
 
@@ -16443,7 +16443,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lit-dom-expressions@workspace:submodules/dom-expressions/packages/lit-dom-expressions"
   dependencies:
-    dom-expressions: ^0.32.11
+    dom-expressions: ^0.32.16
     html-parse-string: 0.0.6
   languageName: unknown
   linkType: soft
@@ -24329,7 +24329,7 @@ resolve@^2.0.0-next.3:
   resolution: "solid-element@workspace:submodules/solid/packages/solid-element"
   dependencies:
     component-register: ~0.8.2
-    solid-js: ^1.3.13
+    solid-js: ^1.3.16
   peerDependencies:
     solid-js: ^1.0.0
   languageName: unknown
@@ -24375,15 +24375,15 @@ resolve@^2.0.0-next.3:
     "@types/jest": ^26.0.24
     "@types/shelljs": ^0.8.8
     babel-jest: ^26.6.3
-    babel-plugin-jsx-dom-expressions: ^0.32.11
+    babel-plugin-jsx-dom-expressions: ^0.32.16
     coveralls: ^3.1.1
-    dom-expressions: 0.32.11
+    dom-expressions: 0.32.16
     gitly: ^2.1.0
-    hyper-dom-expressions: 0.32.11
+    hyper-dom-expressions: 0.32.16
     jest: ~26.6.3
     jest-ts-webcompat-resolver: ^1.0.0
     lerna: ^3.22.1
-    lit-dom-expressions: 0.32.11
+    lit-dom-expressions: 0.32.16
     ncp: 2.0.0
     npm-run-all: ^4.1.5
     rimraf: ^3.0.2
@@ -24488,7 +24488,7 @@ resolve@^2.0.0-next.3:
   dependencies:
     "@aminya/minijson": ^0.6.2
     "@mdx-js/rollup": ^2.0.0-rc.2
-    "@solid-primitives/clipboard": ^1.2.8
+    "@solid-primitives/clipboard": ^1.2.9
     "@solid-primitives/date": ^1.1.0
     "@solid-primitives/debounce": ^1.1.2
     "@solid-primitives/event-listener": ^1.5.0
@@ -24497,7 +24497,7 @@ resolve@^2.0.0-next.3:
     "@solid-primitives/scroll": ^1.0.5
     "@solid-primitives/storage": ^1.1.1
     "@solid-primitives/throttle": ^1.1.2
-    "@solid.js/docs": ^1.0.31
+    "@solid.js/docs": ^1.0.32
     "@tailwindcss/typography": ^0.5.0
     "@types/markdown-it": ^12.2.3
     autoprefixer: ^10.4.2
@@ -24523,7 +24523,7 @@ resolve@^2.0.0-next.3:
     solid-app-router: ^0.3.1
     solid-dismiss: ^1.0.27
     solid-heroicons: ^2.0.3
-    solid-js: ^1.3.13
+    solid-js: ^1.3.15
     solid-markdown: ^1.1.0
     solid-mdx: ^0.0.5
     solid-meta: ^0.27.3
@@ -24562,12 +24562,12 @@ resolve@^2.0.0-next.3:
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-commonjs": 21.0.1
     "@rollup/plugin-node-resolve": 13.1.2
-    babel-preset-solid: ^1.3.13
+    babel-preset-solid: ^1.3.16
     express: ^4.17.1
     rollup: ^2.62.0
     rollup-plugin-copy: ^3.4.0
     shx: ^0.3.3
-    solid-js: ^1.3.13
+    solid-js: ^1.3.16
   languageName: unknown
   linkType: soft
 
@@ -25836,8 +25836,8 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "test-integration@workspace:submodules/solid/packages/test-integration"
   dependencies:
-    babel-preset-solid: ^1.3.13
-    solid-js: ^1.3.13
+    babel-preset-solid: ^1.3.16
+    solid-js: ^1.3.16
   languageName: unknown
   linkType: soft
 
