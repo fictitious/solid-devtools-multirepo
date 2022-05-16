@@ -1699,10 +1699,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/standalone@npm:^7.17.8":
-  version: 7.17.8
-  resolution: "@babel/standalone@npm:7.17.8"
-  checksum: ca72ff478ab72ae79601e2070a65df30b38de874772f66469cee860981d55f4ef45a57fff2afcaac588e644733696596ed7e0fa0907836f7d0f53a22b9fcd622
+"@babel/standalone@npm:^7.17.11":
+  version: 7.17.11
+  resolution: "@babel/standalone@npm:7.17.11"
+  checksum: 9d204938749e38f6819201fb954018776433bec00d105ea58043a8f1e60828b104f16ddf06f00613caf493a794e700140554be89f5b354fa9d5dd44687084108
   languageName: node
   linkType: hard
 
@@ -3054,16 +3054,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/rollup@npm:^2.0.0-rc.2":
-  version: 2.0.0
-  resolution: "@mdx-js/rollup@npm:2.0.0"
+"@mdx-js/rollup@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@mdx-js/rollup@npm:2.1.1"
   dependencies:
     "@mdx-js/mdx": ^2.0.0
     "@rollup/pluginutils": ^4.0.0
     source-map: ^0.7.0
+    vfile: ^5.0.0
   peerDependencies:
     rollup: ">=2"
-  checksum: 6632e41f93211cd35e6604fb53aa4faca3b197223a43d071a458c3e2541168a85b3cce804702b5a05489f8c0ea06f9c1b85d829fbac0031c0bead8ee1eb52879
+  checksum: 83f08e540b1eca2e8655c909e8669baa7e815757732cd9a9e7c8b8e0bc022f3c01a43de86f3552c4c94c28bc05f6e8193bbb140cd0b668ea0f1b026d61471603
   languageName: node
   linkType: hard
 
@@ -3358,26 +3359,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reduxjs/toolkit@npm:^1.4.0":
-  version: 1.7.2
-  resolution: "@reduxjs/toolkit@npm:1.7.2"
-  dependencies:
-    immer: ^9.0.7
-    redux: ^4.1.2
-    redux-thunk: ^2.4.1
-    reselect: ^4.1.5
-  peerDependencies:
-    react: ^16.9.0 || ^17.0.0 || 18.0.0-beta
-    react-redux: ^7.2.1 || ^8.0.0-beta
-  peerDependenciesMeta:
-    react:
-      optional: true
-    react-redux:
-      optional: true
-  checksum: 41c17c660f7c95d776658b9a101f9803c37589b2c08861e90283abe5fab70f99c37af064fae0c5b7501f67308946fa072504f6a801e272f157b9f7427a5e571e
-  languageName: node
-  linkType: hard
-
 "@rollup/plugin-babel@npm:5.3.0":
   version: 5.3.0
   resolution: "@rollup/plugin-babel@npm:5.3.0"
@@ -3629,12 +3610,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid-primitives/debounce@npm:^1.1.2":
-  version: 1.2.0
-  resolution: "@solid-primitives/debounce@npm:1.2.0"
+"@solid-primitives/debounce@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@solid-primitives/debounce@npm:1.3.0"
   peerDependencies:
     solid-js: ">=1.0.0"
-  checksum: f50c1365ad69579489088599badd4e93f90fe0f9874a9101a3c7ba00a0c591d43007b3e25f9f99ae8d8fa99b6d1a939542543a2c27f8a2071f6a4265879039e7
+  checksum: 938ebbc7c94d59eb0c7829cfc0cc4d0d6c2a2317dfc66d0eea1110a848ff4d6563eaa5104045f10e81349bb4bddc1c2e6f889901d2d2bc182ed3f77a8b27d8f8
   languageName: node
   linkType: hard
 
@@ -3659,7 +3640,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid-primitives/intersection-observer@npm:1.2.2, @solid-primitives/intersection-observer@npm:^1.2.2":
+"@solid-primitives/intersection-observer@npm:^1.2.2":
   version: 1.2.2
   resolution: "@solid-primitives/intersection-observer@npm:1.2.2"
   dependencies:
@@ -3681,12 +3662,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid-primitives/script-loader@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@solid-primitives/script-loader@npm:1.0.4"
+"@solid-primitives/script-loader@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@solid-primitives/script-loader@npm:1.1.0"
   peerDependencies:
     solid-js: ^1.3.1
-  checksum: e3246f2b75f7b757dabed703e1b871489a44609bbeb766876fc5435349a33d430619380eb5d3cb3ad30f2c706eecdc232620259fdc5b0225677b259a695a5f44
+  checksum: e01fa145f09a2eeca6354f4f260a899fd6aa61362a7467493076901d6e1b1c04f87597b72ae8c372b5603d45b7c2ed72a4eba7096760f088258ae25e9a2d10d6
   languageName: node
   linkType: hard
 
@@ -3735,13 +3716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid.js/docs@npm:^1.0.32":
-  version: 1.0.32
-  resolution: "@solid.js/docs@npm:1.0.32"
+"@solid.js/docs@npm:^1.0.36":
+  version: 1.0.37
+  resolution: "@solid.js/docs@npm:1.0.37"
   dependencies:
     "@types/markdown-it": ^12.2.3
     node-watch: ^0.7.2
-  checksum: 35359c11145b7120a183d49e6f1d9504c055ccd4c18096f171ff3d91ddd5e5317f9bf2ac7a9963984b3cbf86c71b97dc97d32a8112b641c6ca36e1e1e8000afb
+  checksum: 6e4b2d7b017a88b29e591bd3ff22f3b40ba57e778e11844a49922a4971f8d40fa79bb46eb09301c38904b822f6db5a2942b808a3ac7b4ba31570cee4a4810fd2
   languageName: node
   linkType: hard
 
@@ -4294,16 +4275,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.0.15":
-  version: 26.0.15
-  resolution: "@types/jest@npm:26.0.15"
-  dependencies:
-    jest-diff: ^26.0.0
-    pretty-format: ^26.0.0
-  checksum: 5bbed3d3afa40bcac9eb2e8e76957b40b7cb86228a7a1dd455f7e30cb283a7314f7d7afaf2d46ca52ba5ce62168e0f60c57e0ab7509a6b91eab42460709b6bf1
-  languageName: node
-  linkType: hard
-
 "@types/jest@npm:^26.0.15, @types/jest@npm:^26.0.22, @types/jest@npm:^26.0.24":
   version: 26.0.24
   resolution: "@types/jest@npm:26.0.24"
@@ -4425,13 +4396,6 @@ __metadata:
   version: 17.0.19
   resolution: "@types/node@npm:17.0.19"
   checksum: 6bbd35bfc23dd50d1aefd4ae49c31f7fd632be209dba67c0322bb4fe8b555f4bb6e894018963146ad7758ae596857d5cbecc2d46ddf90a54f6a4424811cf4351
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:14.14.2":
-  version: 14.14.2
-  resolution: "@types/node@npm:14.14.2"
-  checksum: c31f97eafde0cb233ca31149ee01b9d0492f63070de8702c4540834577d6576fd69958d2a588badc62865554aee36d88f93c7cda3445b64419f3d0adeb230943
   languageName: node
   linkType: hard
 
@@ -5307,6 +5271,13 @@ __metadata:
     loader-utils: ^2.0.0
     regex-parser: ^2.2.11
   checksum: 5ceabea85219fcafed06f7d1aafb37dc761c6435e4ded2a8c6b01c69844250aa94ef65a4d07210dc7566c2d8b4c9ba8897518db596a550461eed26fbeb76b96f
+  languageName: node
+  linkType: hard
+
+"adm-zip@npm:^0.5.9":
+  version: 0.5.9
+  resolution: "adm-zip@npm:0.5.9"
+  checksum: 4909bc04119fdd5e8f8ba43826e50623e5c427cf0a939c809d4f9456a6a03c6aa0544e82088739de9ba16b7649f71b99ccbbddc7b2c38bd6143f9c4726cc7ed9
   languageName: node
   linkType: hard
 
@@ -6301,7 +6272,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-preset-solid@workspace:submodules/solid/packages/babel-preset-solid"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ^0.32.16
+    babel-plugin-jsx-dom-expressions: ^0.33.0
   languageName: unknown
   linkType: soft
 
@@ -9302,7 +9273,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dom-expressions@workspace:submodules/dom-expressions/packages/dom-expressions"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ^0.32.16
+    babel-plugin-jsx-dom-expressions: ^0.33.0
     babel-plugin-transform-rename-import: ^2.3.0
     devalue: ^2.0.1
   languageName: unknown
@@ -12725,7 +12696,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hyper-dom-expressions@workspace:submodules/dom-expressions/packages/hyper-dom-expressions"
   dependencies:
-    dom-expressions: ^0.32.16
+    dom-expressions: ^0.33.6
   languageName: unknown
   linkType: soft
 
@@ -12820,13 +12791,6 @@ __metadata:
   version: 8.0.1
   resolution: "immer@npm:8.0.1"
   checksum: 63d875c04882b862481a0a692816e5982975a47a57619698bc1bb52963ad3b624911991708b2b81a7af6fdac15083d408e43932d83a6a61216e5a4503efd4095
-  languageName: node
-  linkType: hard
-
-"immer@npm:^9.0.7":
-  version: 9.0.12
-  resolution: "immer@npm:9.0.12"
-  checksum: bcbec6d76dac65e49068eb67ece4d407116e62b8cde3126aa89c801e408f5047763ba0aeb62f1938c1aa704bb6612f1d8302bb2a86fa1fc60fcc12d8b25dc895
   languageName: node
   linkType: hard
 
@@ -14598,6 +14562,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "js-framework-benchmark@workspace:examples/js-framework-benchmark"
   dependencies:
+    adm-zip: ^0.5.9
     command-exists: ^1.2.9
     cross-env: ^7.0.2
     fs-extra: 9.0.0
@@ -14929,15 +14894,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jszip@npm:^3.7.1":
-  version: 3.7.1
-  resolution: "jszip@npm:3.7.1"
+"jszip@npm:^3.9.1":
+  version: 3.9.1
+  resolution: "jszip@npm:3.9.1"
   dependencies:
     lie: ~3.3.0
     pako: ~1.0.2
     readable-stream: ~2.3.6
     set-immediate-shim: ~1.0.1
-  checksum: 67d737a82b294cc102e7451e32d5acbbab29860399be460cae598084327e6f2ea0c9bca2d3dad701da6a75ddf77f34c6a1dd7db0c3d5c0fec5998b7e56d6d59d
+  checksum: 8c4c3e99beea3dad8a0f965f2f84d3d0f68aa7d936e069f64982fe393745d27ea6aa82c5dbd7376c73f94cfad1a0ecbf240c7a380419d3d1192148c4ef8a381d
   languageName: node
   linkType: hard
 
@@ -15331,7 +15296,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lit-dom-expressions@workspace:submodules/dom-expressions/packages/lit-dom-expressions"
   dependencies:
-    dom-expressions: ^0.32.16
+    dom-expressions: ^0.33.6
     html-parse-string: 0.0.6
   languageName: unknown
   linkType: soft
@@ -20374,7 +20339,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.0":
+"prettier@npm:^2.6.2":
   version: 2.6.2
   resolution: "prettier@npm:2.6.2"
   bin:
@@ -21310,16 +21275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux-thunk@npm:^2.4.1":
-  version: 2.4.1
-  resolution: "redux-thunk@npm:2.4.1"
-  peerDependencies:
-    redux: ^4
-  checksum: af5abb425fb9dccda02e5f387d6f3003997f62d906542a3d35fc9420088f550dc1a018bdc246c7d23ee852b4d4ab8b5c64c5be426e45a328d791c4586a3c6b6e
-  languageName: node
-  linkType: hard
-
-"redux@npm:^4.0.0, redux@npm:^4.0.5, redux@npm:^4.1.2":
+"redux@npm:^4.0.0, redux@npm:^4.0.5":
   version: 4.1.2
   resolution: "redux@npm:4.1.2"
   dependencies:
@@ -21647,13 +21603,6 @@ __metadata:
   version: 1.0.0
   resolution: "requires-port@npm:1.0.0"
   checksum: eee0e303adffb69be55d1a214e415cf42b7441ae858c76dfc5353148644f6fd6e698926fc4643f510d5c126d12a705e7c8ed7e38061113bdf37547ab356797ff
-  languageName: node
-  linkType: hard
-
-"reselect@npm:^4.1.5":
-  version: 4.1.5
-  resolution: "reselect@npm:4.1.5"
-  checksum: 54c13c1e795b2ea70cba8384138aebe78adda00cbea303cc94b64da0a70d74c896cc9a03115ae38b8bff990e7a60dcd6452ab68cbec01b0b38c1afda70714cf0
   languageName: node
   linkType: hard
 
@@ -22038,9 +21987,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.70.1":
-  version: 2.70.1
-  resolution: "rollup@npm:2.70.1"
+"rollup@npm:^2.72.0":
+  version: 2.73.0
+  resolution: "rollup@npm:2.73.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -22048,7 +21997,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 06c62933e6e81a1c8c684d7d576e507081aabdb63cc0c91bca86b7348b66df03b77827068e4990b8b6c738bd3ef66dcc8c7ed7e0ea40b736068e7618f693133e
+  checksum: 38b12cecc59eaa8f32fe0df456e4585d35997572de185eaeb0c97df7fd6db56711842011c6e8ef5601613024fd8074b2d73a65dbdc90baa781090ba99e75d174
   languageName: node
   linkType: hard
 
@@ -22805,6 +22754,7 @@ resolve@^2.0.0-next.3:
     typescript: ">=4.5"
     vite: ^2.9.8
     vite-plugin-solid: ^2.1.1
+    vitest: ^0.11.0
     yarn: ^1.22.0
   languageName: unknown
   linkType: soft
@@ -22878,12 +22828,21 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"solid-dismiss@npm:^1.1.0":
+  version: 1.2.1
+  resolution: "solid-dismiss@npm:1.2.1"
+  peerDependencies:
+    solid-js: 1
+  checksum: 2bd0dfdd8cc77446e1967796e9e99e137e0346d6e5c18f0a2a0555f31d7b7bc79051462ade235a7242a800e6bd2b5a838251d5a01b487b1456345c8c39dfdf33
+  languageName: node
+  linkType: hard
+
 "solid-element@workspace:submodules/solid/packages/solid-element":
   version: 0.0.0-use.local
   resolution: "solid-element@workspace:submodules/solid/packages/solid-element"
   dependencies:
     component-register: ~0.8.2
-    solid-js: ^1.3.16
+    solid-js: ^1.4.1
   peerDependencies:
     solid-js: ^1.0.0
   languageName: unknown
@@ -22929,15 +22888,15 @@ resolve@^2.0.0-next.3:
     "@types/jest": ^26.0.24
     "@types/shelljs": ^0.8.8
     babel-jest: ^26.6.3
-    babel-plugin-jsx-dom-expressions: ^0.32.16
+    babel-plugin-jsx-dom-expressions: ^0.33.0
     coveralls: ^3.1.1
-    dom-expressions: 0.32.16
+    dom-expressions: 0.33.6
     gitly: ^2.1.0
-    hyper-dom-expressions: 0.32.16
+    hyper-dom-expressions: 0.33.6
     jest: ~26.6.3
     jest-ts-webcompat-resolver: ^1.0.0
     lerna: ^3.22.1
-    lit-dom-expressions: 0.32.16
+    lit-dom-expressions: 0.33.6
     ncp: 2.0.0
     npm-run-all: ^4.1.5
     rimraf: ^3.0.2
@@ -23013,26 +22972,26 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"solid-repl@npm:^0.23.5":
-  version: 0.23.5
-  resolution: "solid-repl@npm:0.23.5"
+"solid-repl@npm:^0.23.10":
+  version: 0.23.10
+  resolution: "solid-repl@npm:0.23.10"
   dependencies:
     "@amoutonbrady/lz-string": ^0.0.1
     "@babel/preset-typescript": ^7.16.7
-    "@babel/standalone": ^7.17.8
-    babel-preset-solid: 1.3.13
+    "@babel/standalone": ^7.17.11
+    babel-preset-solid: 1.3.17
     dedent: ^0.7.0
-    jszip: ^3.7.1
+    jszip: ^3.9.1
     mitt: ^3.0.0
     monaco-editor-textmate: ^3.0.0
     monaco-textmate: ^3.0.1
     onigasm: ^2.2.5
-    prettier: ^2.6.0
-    rollup: ^2.70.1
-    solid-dismiss: ^1.0.27
+    prettier: ^2.6.2
+    rollup: ^2.72.0
+    solid-dismiss: ^1.1.0
     solid-heroicons: ^2.0.3
-    solid-js: 1.3.13
-  checksum: f894717843a3c4dcc169f072ed5b59335d23de4d376b89d6df937e5fde50b7e84756b862c5556a70c8767d7fe2783c204a5bf13c81fd432fd44ecf424b1bc3a7
+    solid-js: 1.4.1
+  checksum: cb938e244781b33b50d9a78a2b85c3089069d29cefdd42b515edc5a3ba36b8850704588236d7b0980a4e38a7373a73b0cd1b2d0cf08721f905244acff5014b86
   languageName: node
   linkType: hard
 
@@ -23041,17 +23000,17 @@ resolve@^2.0.0-next.3:
   resolution: "solid-site@workspace:examples/solid-site"
   dependencies:
     "@aminya/minijson": ^0.6.2
-    "@mdx-js/rollup": ^2.0.0-rc.2
+    "@mdx-js/rollup": ^2.1.1
     "@solid-primitives/clipboard": ^1.2.9
     "@solid-primitives/date": ^1.1.0
-    "@solid-primitives/debounce": ^1.1.2
+    "@solid-primitives/debounce": ^1.3.0
     "@solid-primitives/event-listener": ^1.5.0
     "@solid-primitives/i18n": ^1.0.9
     "@solid-primitives/intersection-observer": ^1.2.2
     "@solid-primitives/scroll": ^1.0.5
     "@solid-primitives/storage": ^1.1.1
     "@solid-primitives/throttle": ^1.1.2
-    "@solid.js/docs": ^1.0.32
+    "@solid.js/docs": ^1.0.36
     "@tailwindcss/typography": ^0.5.0
     "@types/markdown-it": ^12.2.3
     autoprefixer: ^10.4.2
@@ -23077,12 +23036,12 @@ resolve@^2.0.0-next.3:
     solid-app-router: ^0.3.1
     solid-dismiss: ^1.0.27
     solid-heroicons: ^2.0.3
-    solid-js: ^1.3.15
+    solid-js: ^1.4.1
     solid-markdown: ^1.1.0
     solid-mdx: ^0.0.5
     solid-meta: ^0.27.3
-    solid-repl: ^0.23.5
-    solid-social: ^0.6.2
+    solid-repl: ^0.23.10
+    solid-social: ^0.7.4
     solid-transition-group: ^0.0.8
     solid-utils: ^0.8.1
     svgo: ^2.8.0
@@ -23097,14 +23056,15 @@ resolve@^2.0.0-next.3:
   languageName: unknown
   linkType: soft
 
-"solid-social@npm:^0.6.2":
-  version: 0.6.2
-  resolution: "solid-social@npm:0.6.2"
+"solid-social@npm:^0.7.4":
+  version: 0.7.4
+  resolution: "solid-social@npm:0.7.4"
   dependencies:
-    "@solid-primitives/intersection-observer": 1.2.2
-    "@solid-primitives/script-loader": 1.0.4
-    solid-js: ^1.3.0
-  checksum: 8ce5d16288607e60308a14201a06e2a7975a8ef86196dae3a9e88740efe43ab916ee2d651ec095cc841e17048dc8f3a24781d62402163edf1d31f65bf8c69bb9
+    "@solid-primitives/intersection-observer": ^1.2.2
+    "@solid-primitives/script-loader": ^1.1.0
+  peerDependencies:
+    solid-js: ^1.3.1
+  checksum: ff8d4ac33417edc3453348e26be56baa55f2967125d93e4f20c7b5fa4d9b1b5daa8003e081267b7e798a7eed7a445b7bd44050598fb4b09e2a487bc03b8a4bd0
   languageName: node
   linkType: hard
 
@@ -23116,12 +23076,12 @@ resolve@^2.0.0-next.3:
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-commonjs": 21.0.1
     "@rollup/plugin-node-resolve": 13.1.2
-    babel-preset-solid: ^1.3.16
+    babel-preset-solid: ^1.4.0
     express: ^4.17.1
     rollup: ^2.62.0
     rollup-plugin-copy: ^3.4.0
     shx: ^0.3.3
-    solid-js: ^1.3.16
+    solid-js: ^1.4.1
   languageName: unknown
   linkType: soft
 
@@ -23133,20 +23093,6 @@ resolve@^2.0.0-next.3:
   checksum: 4e84e5f3a21f257704033eac9bad5aea7eb853a83d79313a99345214aedd7121409184329e37c5a1fa8e9022f81c1ef69aeca5db2ebe535ba76a5cf61ae5a6f4
   languageName: node
   linkType: hard
-
-"solid-tree-view@workspace:examples/solid-tree-view":
-  version: 0.0.0-use.local
-  resolution: "solid-tree-view@workspace:examples/solid-tree-view"
-  dependencies:
-    "@reduxjs/toolkit": ^1.4.0
-    "@types/jest": 26.0.15
-    "@types/node": 14.14.2
-    solid-js: ^0.21.2
-    typescript: 4.0.3
-    vite: ^2.7.13
-    vite-plugin-solid: ^2.1.2
-  languageName: unknown
-  linkType: soft
 
 "solid-utils@npm:^0.8.1":
   version: 0.8.1
@@ -24334,8 +24280,8 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "test-integration@workspace:submodules/solid/packages/test-integration"
   dependencies:
-    babel-preset-solid: ^1.3.16
-    solid-js: ^1.3.16
+    babel-preset-solid: ^1.4.0
+    solid-js: ^1.4.1
   languageName: unknown
   linkType: soft
 
@@ -24863,16 +24809,6 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@4.0.3:
-  version: 4.0.3
-  resolution: "typescript@npm:4.0.3"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 94fc80cfbc9a1d1b77d90e536aef8460bdd87e41ebf18116ba77b63cbf18c703c6b761892fd41a3f900d4194c8a35b81aadfb7c89d69eab0eba5fb2556747c47
-  languageName: node
-  linkType: hard
-
 "typescript@>=4.4.0, typescript@>=4.5, typescript@^4.0.3, typescript@^4.5.4, typescript@~4.5.4":
   version: 4.5.5
   resolution: "typescript@npm:4.5.5"
@@ -24883,13 +24819,13 @@ typescript@4.0.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.0.3#~builtin<compat/typescript>":
-  version: 4.0.3
-  resolution: "typescript@patch:typescript@npm%3A4.0.3#~builtin<compat/typescript>::version=4.0.3&hash=32657b"
+typescript@^4.6.3:
+  version: 4.6.4
+  resolution: "typescript@npm:4.6.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 4f122651dbd12ce9246df5ad00b8ed1c9625bce45a0082cc1af07ed79f57a34699bea5065ae9fe8ea0c99cc154c552107bb3922b72866167f406d161585c1af5
+  checksum: e7bfcc39cd4571a63a54e5ea21f16b8445268b9900bf55aee0e02ad981be576acc140eba24f1af5e3c1457767c96cea6d12861768fb386cf3ffb34013718631a
   languageName: node
   linkType: hard
 
@@ -24900,6 +24836,16 @@ typescript@4.0.3:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: ed34e0986bc395da29a9a749fc980741fcbf698c205d6dc282310a652ee4ae61b571c26fd62c8a264ec26ff23ef12d888d5db7b41031cfaad1798db0d090f5c3
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
+  version: 4.6.4
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=32657b"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 984becf501fe4a0dec5f7fd7bed69785ee84a777e8c6fae5bec7241ac81467ea03d0b6211fb54997dc66e204608a9b70c4e56042566042f8348d3356b8a70f71
   languageName: node
   linkType: hard
 
@@ -25571,6 +25517,17 @@ typescript@~4.4.3:
   checksum: e6d44fc086b83a84f268e4504bcb35481ffa2e978a56a9375b58c0cd1c9846378ddf46ab84ee6ff28cd07ce5222c2494993a6749817146b8e99a95a03ea9c37d
   languageName: node
   linkType: hard
+
+"vite-template-solid@workspace:examples/solid-tree-view":
+  version: 0.0.0-use.local
+  resolution: "vite-template-solid@workspace:examples/solid-tree-view"
+  dependencies:
+    solid-js: ^1.3.13
+    typescript: ^4.6.3
+    vite: ^2.8.6
+    vite-plugin-solid: ^2.2.6
+  languageName: unknown
+  linkType: soft
 
 "vite@npm:2.9.8":
   version: 2.9.8
