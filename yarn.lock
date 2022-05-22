@@ -3716,13 +3716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid.js/docs@npm:^1.0.36":
-  version: 1.0.37
-  resolution: "@solid.js/docs@npm:1.0.37"
+"@solid.js/docs@npm:^1.0.38":
+  version: 1.0.40
+  resolution: "@solid.js/docs@npm:1.0.40"
   dependencies:
     "@types/markdown-it": ^12.2.3
     node-watch: ^0.7.2
-  checksum: 6e4b2d7b017a88b29e591bd3ff22f3b40ba57e778e11844a49922a4971f8d40fa79bb46eb09301c38904b822f6db5a2942b808a3ac7b4ba31570cee4a4810fd2
+  checksum: 667d69bf1fc76fdd3b1096e69fec485a2446a634b5c2dac430121b6b13412e80089fe2c70028a971a3218c614053cb4bfe9a1d2800a970d955e1fa43cf604da7
   languageName: node
   linkType: hard
 
@@ -6272,7 +6272,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-preset-solid@workspace:submodules/solid/packages/babel-preset-solid"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ^0.33.0
+    babel-plugin-jsx-dom-expressions: ^0.33.7
   languageName: unknown
   linkType: soft
 
@@ -9273,7 +9273,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dom-expressions@workspace:submodules/dom-expressions/packages/dom-expressions"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ^0.33.0
+    babel-plugin-jsx-dom-expressions: ^0.33.7
     babel-plugin-transform-rename-import: ^2.3.0
     devalue: ^2.0.1
   languageName: unknown
@@ -12696,7 +12696,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hyper-dom-expressions@workspace:submodules/dom-expressions/packages/hyper-dom-expressions"
   dependencies:
-    dom-expressions: ^0.33.6
+    dom-expressions: ^0.33.7
   languageName: unknown
   linkType: soft
 
@@ -15296,7 +15296,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lit-dom-expressions@workspace:submodules/dom-expressions/packages/lit-dom-expressions"
   dependencies:
-    dom-expressions: ^0.33.6
+    dom-expressions: ^0.33.7
     html-parse-string: 0.0.6
   languageName: unknown
   linkType: soft
@@ -22819,16 +22819,7 @@ resolve@^2.0.0-next.3:
   languageName: unknown
   linkType: soft
 
-"solid-dismiss@npm:^1.0.27":
-  version: 1.0.27
-  resolution: "solid-dismiss@npm:1.0.27"
-  peerDependencies:
-    solid-js: 1
-  checksum: eb5437df71f9b014656c4e9ecaa883329e2f14eade96a52529ff4ef8518ca844df7156a066f9635109595baf97c555906fe0638401c14244a70aeeba8ca068ba
-  languageName: node
-  linkType: hard
-
-"solid-dismiss@npm:^1.1.0":
+"solid-dismiss@npm:^1.1.0, solid-dismiss@npm:^1.2.1":
   version: 1.2.1
   resolution: "solid-dismiss@npm:1.2.1"
   peerDependencies:
@@ -22842,7 +22833,7 @@ resolve@^2.0.0-next.3:
   resolution: "solid-element@workspace:submodules/solid/packages/solid-element"
   dependencies:
     component-register: ~0.8.2
-    solid-js: ^1.4.1
+    solid-js: ^1.4.2
   peerDependencies:
     solid-js: ^1.0.0
   languageName: unknown
@@ -22888,15 +22879,15 @@ resolve@^2.0.0-next.3:
     "@types/jest": ^26.0.24
     "@types/shelljs": ^0.8.8
     babel-jest: ^26.6.3
-    babel-plugin-jsx-dom-expressions: ^0.33.0
+    babel-plugin-jsx-dom-expressions: ^0.33.7
     coveralls: ^3.1.1
-    dom-expressions: 0.33.6
+    dom-expressions: 0.33.7
     gitly: ^2.1.0
-    hyper-dom-expressions: 0.33.6
+    hyper-dom-expressions: 0.33.7
     jest: ~26.6.3
     jest-ts-webcompat-resolver: ^1.0.0
     lerna: ^3.22.1
-    lit-dom-expressions: 0.33.6
+    lit-dom-expressions: 0.33.7
     ncp: 2.0.0
     npm-run-all: ^4.1.5
     rimraf: ^3.0.2
@@ -23010,7 +23001,7 @@ resolve@^2.0.0-next.3:
     "@solid-primitives/scroll": ^1.0.5
     "@solid-primitives/storage": ^1.1.1
     "@solid-primitives/throttle": ^1.1.2
-    "@solid.js/docs": ^1.0.36
+    "@solid.js/docs": ^1.0.38
     "@tailwindcss/typography": ^0.5.0
     "@types/markdown-it": ^12.2.3
     autoprefixer: ^10.4.2
@@ -23034,7 +23025,7 @@ resolve@^2.0.0-next.3:
     scroll-behavior-polyfill: ^2.0.13
     shiki: ^0.10.0
     solid-app-router: ^0.3.1
-    solid-dismiss: ^1.0.27
+    solid-dismiss: ^1.2.1
     solid-heroicons: ^2.0.3
     solid-js: ^1.4.1
     solid-markdown: ^1.1.0
@@ -23076,12 +23067,12 @@ resolve@^2.0.0-next.3:
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-commonjs": 21.0.1
     "@rollup/plugin-node-resolve": 13.1.2
-    babel-preset-solid: ^1.4.0
+    babel-preset-solid: ^1.4.2
     express: ^4.17.1
     rollup: ^2.62.0
     rollup-plugin-copy: ^3.4.0
     shx: ^0.3.3
-    solid-js: ^1.4.1
+    solid-js: ^1.4.2
   languageName: unknown
   linkType: soft
 
@@ -24280,8 +24271,8 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "test-integration@workspace:submodules/solid/packages/test-integration"
   dependencies:
-    babel-preset-solid: ^1.4.0
-    solid-js: ^1.4.1
+    babel-preset-solid: ^1.4.2
+    solid-js: ^1.4.2
   languageName: unknown
   linkType: soft
 
